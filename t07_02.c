@@ -2,8 +2,8 @@
 // 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
-#include "./libs/dorm.h"
-#include "./libs/student.h"
+#include "libs/dorm.h"
+#include "libs/student.h"
 
 int main(int _argc, char **_argv)
 {
@@ -30,7 +30,24 @@ int main(int _argc, char **_argv)
     print_student(students[0]);
     print_student(students[4]);
     print_student(students[8]);
- 
+
+    int i = 0, j;
+    while (i <= 9){
+        j=0;
+        while (j<2){
+            if(dorms[j].residents_num < dorms[j].capacity){
+                if(students[i].gender == dorms[j].gender){
+                    students[i].dorm = &dorms[j];
+                    dorms[j].residents_num++;
+                    
+                }
+            }
+            j++;
+        }
+        i++;
+    }
+
+
     print_student(students[0]);
     print_student(students[1]);
     print_student(students[2]);
