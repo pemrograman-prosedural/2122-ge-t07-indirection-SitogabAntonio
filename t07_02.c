@@ -1,5 +1,5 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 #include "./libs/dorm.h"
@@ -30,11 +30,7 @@ int main(int _argc, char **_argv)
     print_student(students[0]);
     print_student(students[4]);
     print_student(students[8]);
-
-    /**
-     * Put your code here to assign all of the students to the corresponding dorms.
-     */
-
+ 
     print_student(students[0]);
     print_student(students[1]);
     print_student(students[2]);

@@ -1,9 +1,9 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
-#include "./libs/dorm.h"
-#include "./libs/student.h"
+#include "libs/dorm.h"
+#include "libs/student.h"
 
 int main(int _argc, char **_argv)
 {
